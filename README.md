@@ -1,9 +1,5 @@
-<div align="center">
-
-![Repo Badge](https://img.shields.io/badge/NT106_Quan_Ly_Quan_Cafe_NHOM12-16a34a?style=for-the-badge&logo=github&logoColor=white)
-
 # ☕ Phần mềm Quản lý Quán Cà Phê
-### NT106_QuanLyQuanCafe_Nhom12
+### NT106_QuanLyQuanCafe_Nhom2
 
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square&logo=opensourceinitiative&logoColor=white)](LICENSE)
 ![Python](https://img.shields.io/badge/Backend-FastAPI_%7C_Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -85,4 +81,5 @@ NT106_QuanLyQuanCafe/
 ├─ start_frontend.bat    # Chạy Tauri dev
 ├─ start_client1.bat     # Chạy web dev tại port 5173
 ├─ start_client2.bat     # Chạy web dev tại port 5174
+
 └─ README.md
