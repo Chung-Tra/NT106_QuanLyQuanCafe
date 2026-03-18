@@ -63,14 +63,18 @@ namespace QLCafe
 
                 if (isSuccess)
                 {
-                    MessageBox.Show($"Đăng nhập thành công! Chào mừng {role}");
-
-                    // Mở Form1 (Sơ đồ bàn)
-                    Form1 frmMain = new Form1();
-                    frmMain.Show();
-
-                    // Ẩn Form đăng nhập đi
-                    this.Hide();
+                    if (role=="manager")
+                    {
+                        QuanLyForm QL = new QuanLyForm();
+                        QL.Show(this);
+                        this.Hide();
+                    }
+                    else if (role == "staff")
+                    {
+                        NhanVien NV = new NhanVien();
+                        NV.Show(this);
+                        this.Hide();
+                    }
                 }
                 else
                 {
@@ -83,5 +87,19 @@ namespace QLCafe
             }
         }
 
+        private void bttExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

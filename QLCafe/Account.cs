@@ -12,11 +12,11 @@ namespace QLCafe
 
     public class User
     {
-        public string username { get; set; }
-        public string password { get; set; }
-        public string fullName { get; set; }
-        public string role { get; set; }
-        public string status { get; set; }
+        public string? username { get; set; } = null;
+        public string? password { get; set; } = null;
+        public string? fullName { get; set; } = null;
+        public string? role { get; set; } = null;
+        public string? status { get; set; } = null;
         public Dictionary<string, Attendance> attendance { get; set; }
     }
 }

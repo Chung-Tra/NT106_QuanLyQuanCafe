@@ -4,9 +4,9 @@ namespace QLCafe
 {
     public class OrderItem
     {
-        public string name { get; set; }
-        public int quantity { get; set; }
-        public string status { get; set; } // Ví dụ: cooking, served
+        public string? name { get; set; }
+        public int? quantity { get; set; }
+        public string? status { get; set; } // Ví dụ: cooking, served
     }
 
     public class Order
